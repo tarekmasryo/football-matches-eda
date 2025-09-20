@@ -64,5 +64,8 @@ A tutorial-style exploratory data analysis of the **2024/2025 football season** 
 - Outcome probability models; league-specific drill-downs
 - Time-series forecasting for goals/outcomes
 
+## Related Repositories
+- 📂 [Football Matches Dataset](https://github.com/tarekmasryo/football-matches-dataset)
+- 📊 [Football Matches Dashboard](https://github.com/tarekmasryo/football-matches-dashboard)
 
 
