@@ -1,20 +1,34 @@
 __pycache__/
 .ipynb_checkpoints/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 .Python
+
+# Virtual envs
 env/
 venv/
-ENV/
-
-# Local data (not committed)
-/data/raw/*.csv
-
-# Optional outputs (not committed)
-/artifacts/*.png
-/artifacts/*.csv
-/artifacts/*.json
-
-# Virtualenv
 .venv/
+ENV/
+.env
+.env.*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data (keep folders, ignore files)
+data/**
+!data/
+!data/**/
+!data/**/README.md
+!data/**/.gitkeep
+
+# Artifacts (keep folders, ignore files)
+artifacts/**
+!artifacts/
+!artifacts/**/
+!artifacts/**/README.md
+!artifacts/**/.gitkeep

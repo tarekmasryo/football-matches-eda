@@ -23,7 +23,7 @@ Required:
 
 See `data/raw/README.md`.
 
-If the local file is not present, the notebook falls back to the Kaggle input path.
+Data loading supports local `data/raw/` and a Kaggle fallback via `repo_utils/pathing.py`.
 
 ---
 
@@ -40,6 +40,20 @@ Run the notebook:
 - `EDA Football Matches & Results 20242025 season.ipynb`
 
 ---
+
+## Repo layout
+```text
+.
+├── EDA Football Matches & Results 20242025 season.ipynb
+├── data/
+│   └── raw/            # place football_matches_2024_2025.csv here (local runs)
+├── artifacts/          # optional local outputs (ignored by Git)
+├── repo_utils/         # path helpers
+├── CASE_STUDY.md
+├── requirements.txt
+└── LICENSE
+```
+
 
 ## License
 MIT (code). Dataset licensing depends on the dataset source you download.
