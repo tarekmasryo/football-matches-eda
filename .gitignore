@@ -7,3 +7,14 @@ __pycache__/
 env/
 venv/
 ENV/
+
+# Local data (not committed)
+/data/raw/*.csv
+
+# Optional outputs (not committed)
+/artifacts/*.png
+/artifacts/*.csv
+/artifacts/*.json
+
+# Virtualenv
+.venv/
