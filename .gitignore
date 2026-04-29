@@ -5,7 +5,7 @@ __pycache__/
 *.pyd
 .Python
 
-# Virtual envs
+# Virtual environments
 env/
 venv/
 .venv/
@@ -19,14 +19,14 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Data (keep folders, ignore files)
+# Raw data files
 data/**
 !data/
 !data/**/
 !data/**/README.md
 !data/**/.gitkeep
 
-# Artifacts (keep folders, ignore files)
+# Local outputs
 artifacts/**
 !artifacts/
 !artifacts/**/

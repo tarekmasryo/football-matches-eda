@@ -1,7 +1,9 @@
-# artifacts
+# Artifacts
 
-Optional outputs exported from the notebook (not committed by default).
+Use this folder for optional local outputs such as:
 
-Recommended:
-- save key figures (PNG) you want to reference in write-ups or portfolio pages
-- export any summary tables (CSV) used in the notebook narrative
+- exported figures
+- summary tables
+- dashboard-ready CSV files
+
+Generated artifacts are intentionally not committed by default.

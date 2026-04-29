@@ -1,8 +1,9 @@
-# data/raw
+# Raw Data
 
-Place the dataset file here (not committed to the repository).
+Place the dataset CSV here for local runs:
 
-Required:
-- `football_matches_2024_2025.csv`
+```text
+football_matches_2024_2025.csv
+```
 
-The notebook uses this local file if present. If not, it falls back to the Kaggle input path.
+Raw data files are intentionally not committed to this repository.
